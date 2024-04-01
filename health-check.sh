@@ -58,7 +58,7 @@ done
 
 if [[ $commit == true ]]
 then
-  # Let's make Vijaye the most productive person on GitHub.
+  # Update to use infra-eng@getflex.com
   git config --global user.name 'Infra Eng'
   git config --global user.email 'infra-eng@getflex.com'
   git add -A --force logs/
